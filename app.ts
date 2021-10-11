@@ -7,5 +7,5 @@ ship.jumpIntoHyperspace()
 let falcon = new MillenniumFalcon()
 falcon.jumpIntoHyperspace()
 
-let goodForTheJob = (ship: Containership) => ship.cargoContaners > 2
+let goodForTheJob = (ship: Containership) => ship.cargoContainers > 2
 console.log(`Is falcon good for The Job? ${goodForTheJob (falcon)?'YES':'NO'}`)

@@ -8,6 +8,6 @@ class Spacecraft{
 }
 
  interface Containership{
-  cargoContaners: number
+  cargoContainers: number
 }
 export{Spacecraft, Containership}

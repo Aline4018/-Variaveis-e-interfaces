@@ -6,5 +6,5 @@ var ship = new base_ships_1.Spacecraft("hyperdrive");
 ship.jumpIntoHyperspace();
 var falcon = new starfighters_1.MillenniumFalcon();
 falcon.jumpIntoHyperspace();
-var goodForTheJob = function (ship) { return ship.cargoContaners > 2; };
+var goodForTheJob = function (ship) { return ship.cargoContainers > 2; };
 console.log("Is falcon good for The Job? " + (goodForTheJob(falcon) ? 'YES' : 'NO'));
